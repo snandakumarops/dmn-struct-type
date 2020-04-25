@@ -6,12 +6,23 @@ package com.myspace.dmnstructtypes;
 
 public class Customer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Customer() {
-    }
+	private java.lang.String custName;
 
+	public Customer() {
+	}
 
+	public java.lang.String getCustName() {
+		return this.custName;
+	}
 
+	public void setCustName(java.lang.String custName) {
+		this.custName = custName;
+	}
+
+	public Customer(java.lang.String custName) {
+		this.custName = custName;
+	}
 
 }
