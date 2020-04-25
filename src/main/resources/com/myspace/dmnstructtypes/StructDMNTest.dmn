@@ -23,7 +23,7 @@
       <dmn:requiredInput href="#_FB5C2667-3B32-42FE-89D1-67A9E2FAC025"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_9DC5B427-60CC-4D28-9D71-54557A695E7E">
-      <dmn:text>Employee.experience*100*2</dmn:text>
+      <dmn:text>Employee.experience*100*Employee.level</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
